@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#nav {
+
+    margin: auto;
+    background-color: wheat;
+    height: 55px;
+    width: 100%;
+}
+
+#nav>.sub-nav {
+    /* justify-content: center; */
+    /* align-items: center; */
+    display: flex;
+    height: 80px;
+    width: 100%;
+    margin: auto;
+    /* margin-left: 10px; */
+
+}
+
+#nav>.sub-nav>.logo {
+
+    height: 80px;
+    width: 10%;
+    margin-left: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+
+}
+
+#nav>.sub-nav>.searchbar {
+    /* border: 2px solid red; */
+    height: 80px;
+    width: 30%;
+    /* align-items: center; */
+    padding: 10px;
+
+}
+
+#nav>.sub-nav>.searchbar>input {
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+
+#nav>.sub-nav>.lsbutton {
+    /* border: 2px solid green; */
+
+    width: 60%;
+    height: 40px;
+    /* margin: auto; */
+    margin-right: 10px;
+}
+
+#nav>.sub-nav>.lsbutton>ol {
+
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    list-style-type: none;
+}
+
+#nav>.sub-nav>.lsbutton>ol>li>a {
+    padding: 30px;
+
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#nav>.sub-nav>.lsbutton>ol>li>a:hover {
+    color: rgb(19, 52, 187);
+}
+
+
+
+
+#song-type-bar {
+
+    flex-wrap: wrap;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    /* background-color: #fff; */
+    position: sticky;
+    top: 0px;
+
+
+}
+
+#song-type-bar>ol {
+
+    list-style-type: none;
+    display: flex;
+
+}
+
+#song-type-bar>ol>li {
+
+    padding: 12px;
+    color: rgb(42, 38, 38);
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-weight: bold; */
+}
+
+
+#allPage {
+    /* border: 2px solid red; */
+    height: 80vh;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+
+.container {
+    height: 80vh;
+    width: 100%;
+    /* display: flex; */
+    /* margin: auto; */
+    justify-content: center;
+    /* border: 2px solid red; */
+    /* justify-content: space-evenly; */
+
+}
+
+.songsItem {
+    
+  display: flex;
+  /* flex-direction: column ; */
+    /* margin: auto; */
+    /* padding: 10px; */
+    justify-content: center;
+    height: 200px;
+    width: 1510px;
+    /* background-color: red; */
+    /* border: 2px solid black; */
+    justify-content: space-evenly;
+}
+
+.songsItem>.songBox{
+    /* border: 2px solid red; */
+    display: block;
+    display:grid;
+    height: 200px;
+    /* border-radius: 40px; */
+    
+    /* flex-direction: column; */
+}
+
+
+.songsItem .songBox img {
+    /* background-image: url(./img/iTunes-Logo-Header.jpg); */
+    height: 160px;
+    width: 170px;
+    border-image:round;
+    border-radius: 10px;
+    
+
+}
+
+.songsItem .songBox span {
+    /* margin-left: 50px; */
+    font-size: 1.0rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    /* padding:10px; */
+
+
+}
+
+.songsItem .songBox span i{
+    
+    color: #c91818;
+    opacity: 1;
+    cursor: pointer;
+   
+
+   
+}
+
+.logo h2{
+    margin-left: 10px;
+    color: #c91818;
+    
+}
+
+.playSong  {
+    cursor: pointer;
+}
+
+
+
+
+/* <!--  ------------------- footer ---------------- --> */
+
+#footer {
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    /* position: absolute; */
+}
+
+#footer>.sub-footer {
+    margin: auto;
+    height: 300px;
+    width: 100%;
+    display: flex;
+
+}
+
+#footer>.sub-footer>.MLogo {
+    margin-top: 100px;
+    height: 50px;
+    width: 20%;
+    background-color: #000000;
+    font-size: larger;
+
+
+}
+
+#footer>.sub-footer>.MLogo>strong {
+    color: #fdfdfd;
+    padding: 40px;
+    font-size: 70px;
+
+
+
+}
+
+
+#footer>.sub-footer>.fcontent {
+    background-color: rgb(0, 0, 0);
+    height: 280px;
+    width: 20%;
+
+
+
+}
+
+
+
+#footer>.sub-footer>.fcontent>ol>li {
+    color: #ffffff;
+    padding-left: 100px;
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+#footer>.sub-footer>.fcontent>ol>li>a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer>.sub-footer>.div3 {
+    background-color: #000000;
+    height: 280px;
+    width: 20%;
+}
+
+#footer>.sub-footer>.div3>ol>li {
+    color: #000000;
+    padding-left: 100px;
+    margin-top: 30px;
+    list-style-type: none;
+
+}
+
+#footer>.sub-footer>.div3>ol>li>a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fdfdfd;
+    text-decoration: none;
+}
+
+.tradeMark{
+    margin: auto;
+    justify-content: center;
+    color: #ffffff;
+}
+
+
+
+
+/* bottombar css  */
+
+.bottomBar {
+    position: sticky;
+    height: 80px;
+    background-color: rgb(253, 253, 253);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    flex-direction: column;
+}
+.icons{
+    margin: 14px;
+}
+.icons i{
+ cursor: pointer;
+ color: #000000;
+}
+
+
+#myProgressBar {
+    
+    width: 96vw;
+    cursor: pointer;
+    height: 4px;
+
+}
+
+
+
+.songInfo {
+    /* padding: 10px; */
+    /* border: 2px solid red ; */
+    position: absolute;
+    margin-top: 20px;
+    height: 40px;
+    width: 30%;
+    left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.0rem;
+
+}
+
+
+.songInfo img {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+
+}

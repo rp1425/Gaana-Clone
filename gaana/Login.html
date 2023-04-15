@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="icon" href="./img/iTunes-Logo-Header.jpg">
+    
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+  
+    body{
+        background-image: url(./img/wp2070744-musique-wallpapers.jpg);
+     
+    }
+
+    h1{
+        font-size: 5rem;
+        margin-top: 100px;
+        color: aliceblue;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+   
+   form label {
+    font-size: 2rem;
+    color:aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+
+   form input {
+  
+    color: white;
+    height: 20px;
+    border-radius: 30px;
+    width: 227px;
+    padding: 11px;
+    background-color: #d4ecff;
+    border: 2px solid white;
+   }
+   .submit{
+    color: white;
+    height: 53px;
+    border-radius: 30px;
+    width: 144px;
+    padding: 20px;
+    background-color: #1a2935;
+    border: 2px solid white;
+
+   }
+
+   .reset{
+    color: white;
+    height: 53px;
+    border-radius: 30px;
+    width: 144px;
+    padding: 20px;
+    background-color: #1a2935;
+    border: 2px solid white;
+   }
+
+   #pass{
+    
+    color: white;
+    height: 20px;
+    border-radius: 30px;
+    width: 227px;
+    padding: 11px;
+    background-color: #d4ecff;
+    border: 2px solid white;
+   }
+
+</style>
+<body align="center" style="background-color:rgba(197, 223, 180, 0.301)">
+
+    <h1>Login to Musicfy</h1>
+    <br>
+    <br>
+
+    <form action="./Musicfy.html">
+     
+        <label  for="user"> Username/mobile no.  :</label>
+        <input type="text" id="user" name="userlogin" placeholder="Enter username or number" required>
+        <br>
+        <br>
+        <label  for="Pass"> Password : </label>
+        <input type="password" id="pass" name="password" placeholder="Enter password">
+        <br>
+        <br>
+        <input class="submit" type="submit" >
+        <input class ="reset" type="reset">
+    </form>
+    
+</body>
+</html>
